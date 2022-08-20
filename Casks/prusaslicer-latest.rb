@@ -2,7 +2,7 @@ cask "prusaslicer-latest" do
   version "2.5.0-rc1,202208191450"
   sha256 "a20a1edd98b7b23200f0543a0828a06cf7b424b19c75dc8c6880f9711dfd891d"
 
-  url "https://github.com/prusa3d/PrusaSlicer/releases/download/version_#{version.csv.first}/PrusaSlicer-#{version.csv.first}+universal-#{version.csv.second}.dmg",
+  url "https://github.com/prusa3d/PrusaSlicer/releases/download/version_#{version.csv.first}/PrusaSlicer-#{version.csv.first}+MacOS-universal-#{version.csv.second}.dmg",
       verified: "github.com/prusa3d/PrusaSlicer/"
   name "PrusaSlicer"
   desc "G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)"
