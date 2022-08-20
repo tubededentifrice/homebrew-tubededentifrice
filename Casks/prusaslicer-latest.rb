@@ -1,4 +1,4 @@
-cask "prusaslicer" do
+cask "prusaslicer-latest" do
   version "2.5.0-rc1,202208191450"
   sha256 "a20a1edd98b7b23200f0543a0828a06cf7b424b19c75dc8c6880f9711dfd891d"
 
